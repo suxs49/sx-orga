@@ -1,0 +1,38 @@
+[
+  {
+    "serialNumber": 1,
+    "name": "Assa",
+    "mobileNumber": "292939",
+    "nidNumber": "3893938"
+  },
+  {
+    "serialNumber": 2,
+    "name": "Sila",
+    "mobileNumber": "65585885",
+    "nidNumber": "555555"
+  },
+  {
+    "serialNumber": 3,
+    "name": "Ali",
+    "mobileNumber": "65585885",
+    "nidNumber": "555555"
+  },
+  {
+    "serialNumber": 4,
+    "name": "Sami",
+    "mobileNumber": "292939",
+    "nidNumber": "3893938"
+  },
+  {
+    "serialNumber": 5,
+    "name": "subo",
+    "mobileNumber": "292939",
+    "nidNumber": "3893938"
+  },
+  {
+    "serialNumber": 6,
+    "name": "Sifat",
+    "mobileNumber": "64488494646",
+    "nidNumber": "849464646"
+  }
+]

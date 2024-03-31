@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SX SYLHET ORGANISATIONS</title>
+    <!-- external stylesheet here  -->
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome cdn link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <div class="container">
+      <main class="main">
+        <h1 class="title">
+          <a target="_blank" href="index.html"> SX SYLHET ORGANISATIONS </a>
+        </h1>
+    <div class="grid">
+           <div class="login">
+             <form id="memberForm" class="login__form" onsubmit="addBalance(event)">
+           <h1 class="login__title">Add balance</h1> 
+           <h2 class="login__title2">Do you want to add balance?</h2>
+
+           <div class="login__inputs">
+               <div class="login__box">
+             <i class="fa fa-user"style="color:white"></i> 
+                 <input type="number" placeholder="Your serial no" name="serialNumber" required class="login__input">
+               </div>
+
+               <div class="login__box">
+                 <i class="fa fa-money" style="color:white"></i>
+                  <input type="Number" placeholder="amount of dollars"  name="amount" required class="login__input">
+               </div>
+               <div class="login__box">
+             <i class="fa fa-lock"style="color:white"></i> 
+                 <input type="number"placeholder="Your pin" name="privateKey"  required class="login__input">
+            </div>
+          <button type="submit" class="login__button">Confirm</button>            
+           <div class= "box">
+           <a
+            target="_blank"
+            href="/"
+            rel="noreferrer"
+          >
+            <h3>Back</h3>
+  </a>
+           </div>
+              <div 
+           <div class="border">
+<br>
+<h1 class="login__title">Result</h1>
+<br>
+<div class="result__title" id="apiResponse"></div>
+<script src="/script.js"></script>
+</body>
+</html>
